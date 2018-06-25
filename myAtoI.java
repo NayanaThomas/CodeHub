@@ -1,6 +1,6 @@
 package codeing;
 
-public class myAtoI {
+public class MyAtoI {
 	public int myAtoi(String str) {
         int n = str.length();
         int sign=0;
@@ -27,7 +27,7 @@ public class myAtoI {
         return num;
     }
 	public static void main(String[] args) {
-		myAtoI ai = new myAtoI();
+		MyAtoI ai = new MyAtoI();
 		System.out.println(ai.myAtoi("-91283472332"));
 	}
 }

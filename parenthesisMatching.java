@@ -1,5 +1,5 @@
 package codeing;
- class parenthesisMatching {
+ class ParenthesisMatching {
 	public class Stack {
       		int top=-1;
            	char[] s = new char[100];
@@ -75,7 +75,7 @@ package codeing;
 	
 	public static void main(String[] args) {
 		char[] exp = {'[','(',')', ']', '{', '}','{', '[',')', ']', '(', ')', '}'};
-		parenthesisMatching p = new parenthesisMatching();
+		ParenthesisMatching p = new ParenthesisMatching();
 		if(p.isBalanced(exp)) {
 			System.out.println("Balanced");
 		}

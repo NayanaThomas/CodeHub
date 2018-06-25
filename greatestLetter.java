@@ -8,7 +8,7 @@ package codeing;
 	For example, if the target is target = 'z' and letters = ['a', 'b'], 
 	the answer is 'a'.
  */
-public class greatestLetter {
+public class GreatestLetter {
 	public char nextGreatestLetter(char[] letters, char target) {
 	       int p=0;
 	        int r=letters.length;
@@ -25,7 +25,7 @@ public class greatestLetter {
 	        return letters[p%letters.length];
 	    }
 		public static void main(String[] args) {
-			greatestLetter gi = new greatestLetter();
+			GreatestLetter gi = new GreatestLetter();
 			char[] charArray = {'c', 'f', 'j'};
 			char target = 'a';
 			char res = gi.nextGreatestLetter(charArray,target);

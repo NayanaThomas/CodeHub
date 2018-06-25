@@ -2,7 +2,7 @@ package codeing;
 
 import java.util.*;
 
-public class reverseInt {
+public class ReverseInt {
 	public static void main(String args[]) {
 	    Scanner input = new Scanner(System.in);
 		System.out.println("Enter integer: ");

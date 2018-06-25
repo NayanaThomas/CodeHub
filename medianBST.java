@@ -1,6 +1,6 @@
 package codeing;
 
-public class medianBST {
+public class MedianBST {
 	class Node {
 		int data;
 		Node left, right;
@@ -12,7 +12,7 @@ public class medianBST {
 	}
 	
 	Node root;
-	public medianBST()
+	public MedianBST()
 	{
 		root = null;
 	}
@@ -134,7 +134,7 @@ public class medianBST {
 	*/
 	
 	public static void main(String[] args) {
-		medianBST med = new medianBST();
+		MedianBST med = new MedianBST();
 		
 		/*med.insert(50);
 		med.insert(30);

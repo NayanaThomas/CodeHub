@@ -2,7 +2,7 @@ package codeing;
 
 import java.util.HashMap;
 
-public class fourSum {
+public class FourSum {
 	public int fourSumCount(int[] A, int[] B, int[] C, int[] D) {
 		HashMap<Integer,Integer> sums = new HashMap<>();
 		int count = 0;

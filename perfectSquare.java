@@ -1,6 +1,6 @@
 package codeing;
 
-public class perfectSquare {
+public class PerfectSquare {
 	public boolean isPerfectSquare(int num) {
 		long left =1, right = num/2;
         long mid=0;
@@ -30,7 +30,7 @@ public class perfectSquare {
 	}
 	
 	public static void main(String[] args) {
-		perfectSquare gi = new perfectSquare();
+		PerfectSquare gi = new PerfectSquare();
 		int target = 808201;
 		boolean res= gi.isPerfectSquare(target);
 		System.out.print(res);

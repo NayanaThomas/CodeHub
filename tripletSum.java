@@ -3,7 +3,7 @@ package codeing;
 import java.util.Arrays;
 import java.util.HashSet;
 
-public class tripletSum {
+public class TripletSum {
 	// program to find triplets in a given
 	// array whose sum is zero
 	 
@@ -53,7 +53,7 @@ public class tripletSum {
 	}
 	// Driven source
 	public static void main(String[] args) {
-		tripletSum t = new tripletSum();
+		TripletSum t = new TripletSum();
 	    int arr[] = {-4,-2,4};
 	    int n = arr.length;
 	    t.findTriplets(arr, n);

@@ -1,6 +1,6 @@
 package codeing;
 
-public class findMaxIndexDiff {
+public class FindMaxIndexDiff {
 
     /* Utility Functions to get max and minimum of two integers */
     int max(int x, int y) 
@@ -61,7 +61,7 @@ public class findMaxIndexDiff {
     /* Driver program to test the above functions */
     public static void main(String[] args) 
     {
-    		findMaxIndexDiff max = new findMaxIndexDiff();
+    		FindMaxIndexDiff max = new FindMaxIndexDiff();
         int arr[] = {5, 3, 4, 2};
         int n = arr.length;
         int maxDiff = max.maxIndexDiff(arr, n);

@@ -1,12 +1,12 @@
 package codeing;
 import java.util.*;
 
-public class romanTOInt {
+public class RomanTOInt {
 	public static void main(String args[]) {
 	    System.out.println("Enter Roman Literal: ");
 		Scanner input = new Scanner(System.in);
 		String roman = input.nextLine();
-		romanTOInt r = new romanTOInt();
+		RomanTOInt r = new RomanTOInt();
 		int convInt = r.romanToInt(roman);
 		System.out.println(convInt);
 	}

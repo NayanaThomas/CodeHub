@@ -1,6 +1,6 @@
 package codeing;
 
-public class peakMountainElement {
+public class PeakMountainElement {
 	 public int peakIndexInMountainArray(int[] A) {
 	        int left = 0, right = A.length-1;
 	        while(left<=right) {
@@ -20,7 +20,7 @@ public class peakMountainElement {
 	    }
 	 
 	 	public static void main(String[] args) {
-	 		peakMountainElement gi = new peakMountainElement();
+	 		PeakMountainElement gi = new PeakMountainElement();
 			int[] target = {0,1,2,3,10,5,2,0};
 			int res= gi.peakIndexInMountainArray(target);
 			System.out.print(res);

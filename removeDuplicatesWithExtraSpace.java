@@ -1,6 +1,6 @@
 package codeing;
 
-public class removeDuplicatesWithExtraSpace {
+public class RemoveDuplicatesWithExtraSpace {
 	// program to remove duplicates
 
 	// Function to remove duplicate elements

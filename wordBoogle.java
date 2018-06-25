@@ -2,7 +2,7 @@ package codeing;
 import java.util.HashSet;
 import java.util.Set;
 
-public class wordBoogle {
+public class WordBoogle {
 	 Set<String> set = new HashSet<String>();
 	
 	public void makeSet() {
@@ -61,7 +61,7 @@ public class wordBoogle {
 	}
 
 	public static void main(String[] args) {
-		wordBoogle wb = new wordBoogle();
+		WordBoogle wb = new WordBoogle();
 		wb.makeSet();
 		
 		char[][] boggle = {{'f','f','d', 'e'},

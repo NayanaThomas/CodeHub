@@ -1,6 +1,6 @@
 package codeing;
 //Given a string, find the length of the longest substring without repeating characters.
-public class longestSubstring {
+public class LongestSubstring {
 	public int lengthOfLongestSubstring(String s) {
        if(!s.isEmpty()) {
              int startChar = 0;
@@ -35,7 +35,7 @@ public class longestSubstring {
        
     }
 	public static void main(String args[]) {
-		longestSubstring ls = new longestSubstring();
+		LongestSubstring ls = new LongestSubstring();
 		System.out.println("bfw: "+ls.lengthOfLongestSubstring("bffbuttio"));
 	}
 }

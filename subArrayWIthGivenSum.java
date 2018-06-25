@@ -20,7 +20,7 @@ Source: Google Interview Question
 
  */
 
-public class subArrayWIthGivenSum {
+public class SubArrayWIthGivenSum {
 	/*
 	 * Method 1
 	 * Time Complexity : O(n^2) in worst case.
@@ -66,7 +66,7 @@ public class subArrayWIthGivenSum {
 	public static void main(String[] args) {
 		int[] arr = {1, 4, 20, 3, 10, 5};
 		int num = 33;
-		subArrayWIthGivenSum sas = new subArrayWIthGivenSum();
+		SubArrayWIthGivenSum sas = new SubArrayWIthGivenSum();
 		int[] resArray=sas.subArraySum(arr,num);
 		System.out.println("subarray found between indexes: "+resArray[0]+" "+resArray[1]);
 	}

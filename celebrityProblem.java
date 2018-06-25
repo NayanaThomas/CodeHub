@@ -2,7 +2,7 @@ package codeing;
 //Java program to find 
 //celebrity using two 
 //pointers
-public class celebrityProblem {
+public class CelebrityProblem {
 	// Person with 2 is celebrity
 	public int MATRIX[][] = { { 0, 1, 0},
                             { 0, 0, 0}, 
@@ -53,7 +53,7 @@ public class celebrityProblem {
 	// Driver Code
 	public static void main(String[] args) 
 	{
-		celebrityProblem cp = new celebrityProblem();
+		CelebrityProblem cp = new CelebrityProblem();
 		int n = 3;
 		int result = cp.findCelebrity(n);
 		if (result == -1) 

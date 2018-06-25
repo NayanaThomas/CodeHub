@@ -1,6 +1,6 @@
 package codeing;
 
-public class password {
+public class Password {
 	
     static String[] strengthenPasswords(String[] passwords) {
         int n= passwords.length;

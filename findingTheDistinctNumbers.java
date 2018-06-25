@@ -26,7 +26,7 @@ for (Map.Entry<String, Object> entry : map.entrySet()) {
 }
 */
 
-class findingTheDistinctNumbers {
+class FindingTheDistinctNumbers {
 	public static void main (String[] args) {
 		//code
 		Scanner input = new Scanner(System.in);

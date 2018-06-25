@@ -2,7 +2,7 @@ package codeing;
 
 import java.util.HashMap;
 
-public class numToWords {
+public class NumToWords {
 
 	HashMap<Integer, String> map = new HashMap<Integer, String> ();
 	public String convertToWords(int num) {
@@ -84,7 +84,7 @@ public class numToWords {
         map.put(90, " Ninety");
     }
 	public static void main(String[] args) {
-		numToWords n = new numToWords();
+		NumToWords n = new NumToWords();
 		String word = n.convertToWords(34466433);
 		System.out.print(word);
 	};

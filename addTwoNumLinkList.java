@@ -9,7 +9,7 @@ import java.util.*;
     ListNode(int x) { val = x; }
 }
  
-class addTwoNumLinkList {
+class AddTwoNumLinkList {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode newList = new ListNode(0);
         ListNode list1 = l1, list2 = l2, curr = newList;
@@ -45,7 +45,7 @@ class addTwoNumLinkList {
     }
     public static void main(String args[]) {
     		//Scanner in = new Scanner(System.in);
-    		addTwoNumLinkList sll = new addTwoNumLinkList();
+    		AddTwoNumLinkList sll = new AddTwoNumLinkList();
     		ListNode l1 = new ListNode(2);
     		l1.next = new ListNode(4);
     		l1.next = new ListNode(3);

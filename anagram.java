@@ -2,7 +2,7 @@ package codeing;
 
 import java.util.HashMap;
 
-public class anagram {
+public class Anagram {
 	public boolean isAnagram(String s, String t) {
         HashMap<Character, Integer> map1 = new HashMap<Character,Integer>();
         for(int i=0;i<s.length();i++) {
@@ -32,7 +32,7 @@ public class anagram {
         return false;
     }
 	public static void main(String[] args) {
-		anagram a = new anagram();
+		Anagram a = new Anagram();
 		System.out.println(a.isAnagram("asdf","wwww"));
 	}
 }

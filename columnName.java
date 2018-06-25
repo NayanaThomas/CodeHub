@@ -1,6 +1,6 @@
 package codeing;
 
-public class columnName {
+public class ColumnName {
 	public void printString(int num) {
 		StringBuilder colName = new StringBuilder();
 		while(num>0) {
@@ -18,7 +18,7 @@ public class columnName {
 	}
 	public static void main(String[] args)
     {
-		columnName col = new columnName();
+		ColumnName col = new ColumnName();
         col.printString(26);
         col.printString(51);
         col.printString(52);

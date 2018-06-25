@@ -1,6 +1,6 @@
 package codeing;
 
-public class removeDuplicatesWithConstantSpace {
+public class RemoveDuplicatesWithConstantSpace {
 	// java program to remove duplicates
 
 	// Function to remove duplicate elements

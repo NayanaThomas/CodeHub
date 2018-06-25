@@ -3,7 +3,7 @@ package codeing;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-public class intersectUnsortedNondistinct {
+public class IntersectUnsortedNondistinct {
 	public int[] intersect(int[] nums1, int[] nums2) {
 	        int size1 = nums1.length;
 	        int size2 = nums2.length;
@@ -38,7 +38,7 @@ public class intersectUnsortedNondistinct {
 	        
 	    }
 	public static void main(String[] args) {
-		intersectUnsortedNondistinct i = new intersectUnsortedNondistinct();
+		IntersectUnsortedNondistinct i = new IntersectUnsortedNondistinct();
 		int[] nums1 = {1,2,2,1};
 		int[] nums2 = {2,1};
 		int[] res = i.intersect(nums1,nums2);

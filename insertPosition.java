@@ -1,6 +1,6 @@
 package codeing;
 
-public class insertPosition {
+public class InsertPosition {
     public int searchInsert(int[] nums, int target) {
         return bSearch(nums, target, 0, nums.length-1);
     }
@@ -25,7 +25,7 @@ public class insertPosition {
     }
     
     public static void main(String[] args) {
-    		insertPosition i = new insertPosition();
+    		InsertPosition i = new InsertPosition();
     		int[] nums= {1,3,5,6};
     		int target = 0;
     		int pos = i.searchInsert(nums, target);

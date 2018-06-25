@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 // intersect with distinct elements
-public class intersectArrays {
+public class IntersectArrays {
 	public int[] intersection(int[] nums1, int[] nums2) {
         HashSet<Integer> set = new HashSet<Integer>();
         HashSet<Integer> set2 = new HashSet<Integer>();
@@ -29,7 +29,7 @@ public class intersectArrays {
 	    
 	
 	public static void main(String[] args) {
-		intersectArrays i = new intersectArrays();
+		IntersectArrays i = new IntersectArrays();
 		int[] nums1 = {1,2,2,1};
 		int[] nums2 = {2,2};
 		int[] res = i.intersection(nums1,nums2);

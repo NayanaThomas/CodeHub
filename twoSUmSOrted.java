@@ -14,7 +14,7 @@ Input: numbers = [2,7,11,15], target = 9
 Output: [1,2]
 Explanation: The sum of 2 and 7 is 9. Therefore index1 = 1, index2 = 2.
  */
-public class twoSUmSOrted {
+public class TwoSUmSOrted {
 	public int[] twoSum(int[] numbers, int target) {
 		int[] res = new int[2];
 		int left = 0;
@@ -57,7 +57,7 @@ public class twoSUmSOrted {
 		return left;
 	}
 	public static void main(String[] args) {
-		twoSUmSOrted two = new twoSUmSOrted();
+		TwoSUmSOrted two = new TwoSUmSOrted();
 		int[] res = new int[2];
 		int[] numbers = {2,7,11,15};
 		int target = 9;

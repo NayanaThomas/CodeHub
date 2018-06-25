@@ -1,6 +1,6 @@
 package codeing;
 
-public class substring {
+public class Substring {
 	public static int repeatedStringMatch(String A, String B) {
 	/*	String temp = A;
 		System.out.println("lljjkkl: "+temp);

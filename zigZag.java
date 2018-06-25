@@ -1,6 +1,6 @@
 package codeing;
 
-public class zigZag {
+public class ZigZag {
 	public String convert(String s, int numRows) {
 	       if(numRows == 1) {
 	           return s;
@@ -35,7 +35,7 @@ public class zigZag {
 	        return newString;
 	    }
 	public static void main(String args[]) {
-		zigZag zz = new zigZag();
+		ZigZag zz = new ZigZag();
 		System.out.println("zigzag: "+zz.convert("PAYPALISHIRING",3));
 	}
 }

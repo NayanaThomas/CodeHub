@@ -1,6 +1,6 @@
 package codeing;
 
-public class findLongestPalindrome {
+public class FindLongestPalindrome {
 	 public String longestPalindrome(String s) {
 	        int n = s.length();
 	        if(n == 1) {
@@ -41,7 +41,7 @@ public class findLongestPalindrome {
 	        
 	    }
 	 public static void main(String args[]) {
-		 findLongestPalindrome lp = new findLongestPalindrome();
+		 FindLongestPalindrome lp = new FindLongestPalindrome();
 		 System.out.println("Longest Palindromic sub seq : "+ lp.longestPalindrome("abkah"));
 	 }
 }

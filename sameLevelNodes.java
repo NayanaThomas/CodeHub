@@ -17,7 +17,7 @@ class Node
  }
 }
 
-class sameLevelNodes 
+class SameLevelNodes 
 {
  Node root;
 
@@ -88,7 +88,7 @@ class sameLevelNodes
  /* Driver program to test the above functions */
  public static void main(String args[]) 
  {
-	 sameLevelNodes tree = new sameLevelNodes();
+	 SameLevelNodes tree = new SameLevelNodes();
      tree.root = new Node(10);
      tree.root.left = new Node(8);
      tree.root.right = new Node(2);

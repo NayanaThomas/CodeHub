@@ -2,7 +2,7 @@ package codeing;
 
 import java.util.Arrays;
 
-public class houseHeater {
+public class HouseHeater {
 	public int findRadius(int[] houses, int[] heaters) {
         Arrays.sort(heaters);
         int result = Integer.MIN_VALUE;
@@ -22,7 +22,7 @@ public class houseHeater {
     }
 	
 	public static void main(String[] args) {
-		houseHeater gi = new houseHeater();
+		HouseHeater gi = new HouseHeater();
 		int[] houses = {1,2,3};
 		int[] heaters= {2};                                                                                                                                                                                                                                                                                                                        
 		int res= gi.findRadius(houses,heaters);

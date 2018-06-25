@@ -3,7 +3,7 @@ package codeing;
 import java.awt.List;
 import java.util.LinkedList;
 
-public class mergeIntervals {
+public class MergeIntervals {
 	private class Interval {
 		int start;
 		int end;

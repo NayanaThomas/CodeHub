@@ -1,6 +1,6 @@
 package codeing;
 
-public class reverseLinkedList {
+public class ReverseLinkedList {
   static Node head;
 
  static class Node {
@@ -38,7 +38,7 @@ public class reverseLinkedList {
  }
 
  public static void main(String[] args) {
-	 reverseLinkedList list = new reverseLinkedList();
+	 ReverseLinkedList list = new ReverseLinkedList();
      list.head = new Node(85);
      list.head.next = new Node(15);
      list.head.next.next = new Node(4);

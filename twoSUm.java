@@ -11,7 +11,7 @@ return [0, 1].
 //1st qn, sorted array?
 import java.util.Scanner;
 
-public class twoSUm {
+public class TwoSUm {
 	public static void main(String args[]) {
 		boolean found = false;
 		System.out.println("Enter length of array: ");

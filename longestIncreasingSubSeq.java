@@ -2,7 +2,7 @@ package codeing;
 
 import java.util.Arrays;
 
-class longestIncreasingSubSeq
+class LongestIncreasingSubSeq
 {
 	public int LongestIncreasingSubsequenceLength(int[] arr) {
 		if(arr.length == 0) {
@@ -91,7 +91,7 @@ class longestIncreasingSubSeq
 	// Driver program to test above function
 	public static void main(String[] args)
 	{
-		longestIncreasingSubSeq ss = new longestIncreasingSubSeq();
+		LongestIncreasingSubSeq ss = new LongestIncreasingSubSeq();
 		int A[] = {0, 8, 4, 12, 2, 10, 6, 14, 1, 9, 5, 13, 3, 11, 7, 15};
 		for(int it=0;it<A.length;it++) {
 			System.out.print(" "+A[it]);
